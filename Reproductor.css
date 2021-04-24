@@ -1,0 +1,73 @@
+.musica{
+    width:100vw;
+    height:10vh;
+    background-color: #EB5757;
+    display: flex;
+    justify-content: space-between;
+}
+.albun{
+    width: 25vw;
+    display: flex;
+   text-align: center;
+   align-items: center;
+}
+.albun div{
+    
+    background-size: cover;
+    width:10vw;
+    height: 9.2vh;
+}
+.albun p{
+    color: #ffffff;
+    margin-left: 10px;
+}
+.controladores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev,.next{
+    width: 50px;
+}
+
+.play,.pause{
+    width:100px;
+  
+}
+.play:hover,.prev:hover, .next:hover ,.pause:hover{
+    cursor: pointer;
+}
+.sonido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.volumen{
+    width: 50px;
+}
+.sonido input{
+    width: 150px;
+    
+}
+input[type="range"]{
+    height: 2px;
+}
+.fa{
+    color: white;
+    font-size: 90px
+}
+#imagen{
+    height: 100%;
+    
+}
+.hola{
+    font-size: 35px;
+    margin-top: -5px;
+    width: 60px;
+}
+@media screen and (max-height:850px){
+    .fa{
+        font-size: 60px;
+    }
+}
