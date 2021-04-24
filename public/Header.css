@@ -1,0 +1,123 @@
+.card{
+    margin-top: 30px;
+    display: flex;
+    width: 70vw;
+    height: 25vh ;
+}
+.imagen{
+    width: 40%;
+    height:100%;
+    background-image: url("");
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.imagen img:hover{
+    margin-top: -10px;
+    cursor: pointer;
+}
+.descripcion{
+    background: linear-gradient(0deg, rgba(167, 0, 0, 0.7), rgba(167, 0, 0, 0.7)), url("");
+    opacity: 0.6;
+    background-position-y: -60px;
+    background-position-x: 60px;
+    width: 100%;
+}
+.card img{
+    width: 100px;
+}
+.descripcion h3{
+    color:#ffffff;
+    font-size: 25px;
+    margin-top: 30px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.artista{
+    display: flex;
+    color:#ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.artista .seguidores{
+    font-weight: bold;
+    opacity: none ;
+    color:#240c0c ; 
+    margin-left: 15px;
+}
+.parrafo{
+    color:#ffffff;
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.botones{
+    display: flex;
+    margin-right: 20px;
+   margin-left: 20px;
+}
+button{
+    width:12vw;
+    height:4vh;
+    border-radius: 100px;
+    margin-top: 50px;
+    font-size: 1.188rem;
+    
+}
+.card button:hover{
+    cursor: pointer;
+}
+.seguir:hover{
+    cursor: pointer;
+}
+.reproducir{
+    border:none;
+    background-color: #ff0101;
+    color: #ffffff;
+}
+.seguir{
+     width:12vw;
+    height:4vh;
+    border-radius: 100px;
+    margin-top: 50px;
+    font-size: 1.188rem;
+    border:1px solid #ff0101;
+  
+    background-color:none;
+    text-align: center;
+    margin-left: 15px;
+}
+.seguir p{
+    margin-top: 8px;
+    font-size: 1.188rem;
+      color:#fa0000;
+}
+span{
+    color:#ffffff;
+    margin-top: 25px;
+    font-size: 50px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+@media screen and (max-height:850px){
+    .descripcion h3{
+        margin-top: 5px;
+    }
+    
+    .imagen{
+        width: 25vw;
+    }
+    .seguir, button  {
+        margin-top: 5px;
+    }
+    span{
+        margin-top: -25px;
+    }
+    .seguir p{
+        margin-top: 3px;
+    }
+}

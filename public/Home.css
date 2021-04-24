@@ -1,0 +1,24 @@
+@import url("./sidebar.css");
+@import url("./Header.css");
+@import url("./Cards.css");
+@import url("./Reproductor.css");
+@import url("./Buscador.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.wrapper{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    
+}
+.home{
+    width: 100%;
+    margin: 30px 60px 0 60px;
+}
